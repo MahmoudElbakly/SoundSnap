@@ -1,0 +1,798 @@
+body
+{
+    margin: 0 auto;
+    padding: 0;
+    
+}
+#header{
+    background-image:url('../Resources/background1.jpg') ;
+    background-attachment: fixed;
+    background-repeat:no-repeat; 
+    margin-top: -80px;
+    text-align: center;
+    background-size:cover;
+    
+
+}
+#header #nav
+{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+#header #nav a
+  { 
+      margin-top: 17px;
+      margin-left: 4%;
+      float: left;
+  }
+
+#search
+{  
+    float: left;
+    position: relative;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 50%;
+    height: 40px;
+    margin-top: 12px ;
+    margin-left: 50px;
+    float: left;
+}
+#search form input
+{
+    font-family: "HelveticaNeueLTPro-Roman", Helvetica, sans-serif;
+    background-color:  #687c7d;
+    opacity: 0.7;
+    color:white;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+}
+#search form input::placeholder
+{
+    color:#ffffff;  
+    font-family: "HelveticaNeueLTPro-Roman", Helvetica, sans-serif;
+    font-size: 15px;
+}
+#header #nav #container_li
+{    
+   
+    width:350px;
+    height: 60px;
+    float: left;
+    margin-left: 0px;
+    
+
+    
+}
+#container_li ul
+{ 
+    margin-top: 10px;
+    height:40px ;
+    position: relative;
+}
+#container_li ul li
+{
+    float: left;
+    list-style: none;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-left: 11px;
+    
+  }
+
+#container_li .bold
+{
+
+    margin-left: 10px;
+    font-weight:bold;
+}
+  #container_li ul li a
+  {
+    color:#f5ffff;
+    text-decoration: none;
+  }
+  
+  #icons
+  {
+      width: 100px;
+      float: left;
+      margin-top: 11px;
+      margin-left: 15px;
+  }
+  #icons a i
+  {
+    margin-left: 15px;
+    font-size:17px;
+    color:#8b918d;
+  }
+  #content
+  {
+      padding: 120px;
+      
+      color: #ededec;
+      margin-top: 80px;
+  }
+  #content h1
+  {
+    font-family:"Thasadith",Helvetica,sans-serif;
+    line-height: 54px;
+    font-size: 70px;
+  }
+  #content h2
+  {
+    font-family:"Thasadith",Helvetica,sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+  }
+
+#content button
+{
+    font-family:"Thasadith",Helvetica,sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    border: solid 0.5px white;
+    border-radius: 5px; 
+    background: transparent;
+    margin-top: 50px;
+    width: 200px;
+    color: white;
+    font-size: larger;
+}
+
+#content button:hover
+{
+    background-color: rgb(204, 204, 204);
+}
+#content1
+{
+    position: relative;
+
+    width:1200px;
+    height: 450px;
+    display: inline-block;
+    margin-left: 0;
+    
+}
+.properity
+{
+    
+    float: left;
+    border-radius: 5px;
+    text-align: center; 
+    width: 187px;
+    height: 142px;
+    margin: 0 4px 8px;
+    border: 1px solid transparent;
+}
+.properity1
+{
+    border: 1px solid transparent;
+    float: left;
+    border-radius: 5px;
+    text-align: center; 
+    width: 577px;
+    height: 200px;
+    margin: 0 6px 8px;
+}
+#content1 #img1
+{
+    background-image:url('../Resources/walla.jpg');
+}
+
+#content1 #img2
+{
+    background-image:url('../Resources/whoosh.jpg');
+}
+
+
+#content1 #img3
+{
+    background-image:url('../Resources/wind.jpg');
+}
+
+
+#content1 #img4
+{
+    background-image:url('../Resources/footsteps.jpg');
+}
+
+
+#content1 #img5
+{
+    background-image:url('../Resources/cartoon.jpg');
+}
+
+
+#content1 #img6
+{
+    background-image:url('../Resources/drones.jpg');
+}
+#content1 #img7
+{
+    background-image:url('../Resources/menus_and_interfaces.jpg');
+}
+#content1 #img8
+{
+    background-image:url('../Resources/ambience.jpg');
+}
+
+.prop1
+{
+    
+    color: white;
+    position:relative;
+    padding-top:23%;
+    
+}
+.properity1:hover
+{
+    border:1px solid rgb(51, 239, 180);
+}
+.prop
+{
+    
+    color: white;
+    position:relative;
+    padding-top:12%;
+    
+}
+
+.properity:hover
+{
+    border:1px solid rgb(51, 239, 180);
+}
+.prop2
+{
+    font-family:"Thasadith",Helvetica,sans-serif; 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size:larger;
+}
+
+
+#content2_s1 h2
+{ 
+    color:#bab4a8;
+    font-family: "Thasadith", sans-serif;
+    font-weight:bolder;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    letter-spacing: 4.4px;
+    line-height: 26px;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+#content2_s1_first
+{
+    margin-top: 45px;
+}
+.content2_s1_links
+{
+    color:#ffffff;
+    margin: 0 14px;
+    opacity: 0.3;
+    font-family: "Thasadith",sans-serif; 
+    display: inline-block;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight:bolder;
+    text-align: center;
+
+}
+#l1:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#l2:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#l3:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+#content2_s1_first
+{
+    height:170px;
+    display:inline-block;
+    text-align: center; 
+}
+
+.links_latest
+{
+    border: 1px solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    width:284px;
+    height: 142px;
+    float: left;
+    border-radius: 5px;
+    text-align: center; 
+    margin: 0 4px 8px;
+}
+
+.links_latest:hover
+{
+    border:1px solid rgb(51, 239, 180);
+    cursor: pointer;
+}
+#content2_s1_first #img1
+{
+    background-image: url('../Resources/yeti_monster.jpg');
+}
+
+#content2_s1_first #img2
+{
+    background-image: url('../Resources/quad_copter.jpg');
+}
+
+#content2_s1_first #img3
+{
+    background-image: url('../Resources/builder_game.jpg');
+}
+
+#content2_s1_first #img4
+{
+    background-image: url('../Resources/robot_voices.jpg');
+}
+
+.link_property
+{
+ padding-top: 14%;
+}
+.link_prop
+{
+    font-family: "Thasadith",sans-serif;
+    color: white;
+    position:relative;
+    font-size:large;
+    letter-spacing: 3.4px;
+    text-decoration: none; 
+}
+
+
+#content2_s1_second
+{
+    margin-top: 45px;
+    height:170px;
+    display:inline-block;
+    text-align: center; 
+    width: 1168px;
+}
+
+.content2_s1_second_links
+{
+    width: 282px;
+    height: 82px;
+    color: white;
+    opacity:0.7;
+    
+    border: 1px solid gray;
+    border-radius: 5px;
+    float: left;
+    margin: 2px 4px 2px ;  
+
+}
+
+.content2_s1_second_links:hover
+{
+    border: 1px solid #52d9a0;;
+}
+.content2_s1_second_links1
+{
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.center
+{
+    padding-top: 10px;
+}
+
+#content2_s1_third
+{
+    margin-top: 45px;
+    height:170px;
+    display:inline-block;
+    text-align: center; 
+    width: 1168px;
+}
+
+
+.content2_s1_third_links
+{
+    width: 282px;
+    height: 82px;
+    color: white;
+   
+    
+    border: 1px solid gray;
+    border-radius: 5px;
+    float: left;
+    margin: 2px 4px 2px ;  
+
+}
+
+.content2_s1_third_links:hover
+{
+    border: 1px solid #52d9a0;;
+}
+.content2_s1_third_links1
+{
+    font-family: "Thasadith","sans-serif";
+    text-decoration: none; 
+    font-size: 22px;
+    color: #00ffaf;
+    text-align: center;
+    font-weight: large;
+}
+.center1
+{
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+#middle #title
+{
+    padding-top: 80px;
+}
+.style
+{
+    font-family: "Thasadith",sans-serif;
+    text-align: center;
+    margin: 0 auto 64px auto;
+    font-size: 32px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 500;
+
+}
+
+#middle #content1_photos
+{
+
+    position: relative;
+    display: inline-block;
+    margin-left: 210px;
+}
+
+.photos
+{
+    float: left;
+    border-radius: 4px;
+    text-align: center; 
+    width: 187px;
+    height: 139px;
+    margin: 0 4px 8px;
+}
+#middle #content1_photos #photo1
+{
+    
+    background-image: url('../Resources/center1/black_swan.png');
+}
+
+#content1_photos #photo2
+{
+    background-image: url('../Resources/center1/baby_driver.png');
+}
+
+#content1_photos #photo3
+{
+    background-image: url('../Resources/center1/dallas_byers_club.png');
+}
+
+#content1_photos #photo4
+{
+    background-image: url('../Resources/center1/mother.png');
+}
+
+#content1_photos #photo5
+{
+    background-image: url('../Resources/center1/tron_legacy.png');
+}
+
+#content1_photos #photo6
+{
+    background-image: url('../Resources/center1/the_dark_knight.png');
+}
+.photo_center
+{
+    font-family: "HelveticaNeueLTPro-Roman", Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 14px;
+    font-size: 18px;
+    font-weight: normal;
+}
+#discover #title
+{
+    padding-top: 80px;
+}
+
+#information
+{ 
+    display: inline-block;
+    width:1140px;
+    
+    margin-left: 13%;
+}
+.information_feature
+{
+    font-family: "HelveticaNeueLTPro-Roman", Helvetica, sans-serif;
+    float: left;
+    width: 284px;
+    
+
+}
+
+
+#information .img
+{
+    margin-left: 69.225px;
+    padding-left: 8%;
+    padding-top: 9%;
+    border-radius: 50%;
+    background-color: #ecfaf3;
+    width: 120px;
+    height: 120px; 
+}
+.feature_title
+{
+    font-family: "HelveticaNeueLTPro-Roman", Helvetica, sans-serif;
+    color: #424242;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.feature_info
+{
+    font-family: "HelveticaNeueLTPro-Roman", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    text-align: center;
+    
+}
+#information #content_fourth
+{
+    margin-left: 31%;
+    margin-bottom: 12%;
+    height:100px; 
+}
+
+#information .survey
+{
+    text-align: center;
+    display: inline-block;
+    margin: 20px 30px;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #687c7d;
+    width: 170px;
+    
+    
+    
+}
+
+.survey-number
+{
+    font-family:  Helvetica, sans-serif;
+    display: block;
+    opacity: 1;
+    font-weight:  normal;
+    font-size: 32px;
+    line-height: 42px;
+    color: #424242;
+    margin-top: 7px;
+}
+
+#bottom
+{
+    background-image:url('../Resources/background2.jpg') ;
+    background-attachment: fixed;
+    background-repeat:no-repeat; 
+    text-align: center;
+    background-size:cover;
+    width: 100%;
+    height: 1035px;;
+    
+}
+
+.left_content
+{
+    background: #000000;
+    text-align: left;
+    
+    float: left;
+    width:458px;
+    height: inherit;
+    
+}
+
+.subtitle
+{
+
+    font-family:"Thasadith",Helvetica,sans-serif;
+    color: #ffffff;
+    text-align: left;
+    max-width: 582px;
+    font-size: 32px;
+    line-height: 47px;
+    margin: 68% 0 0 20%;
+  
+}
+
+.right_content
+{
+    width: 1125px;
+    float: left;
+    height: inherit;
+    background-color: black;
+   opacity:0.5;
+}
+
+.client
+{
+    display: inline-block;
+    padding: 6% 8%;
+    width: 5%;
+    vertical-align: middle;
+    position: relative;
+    z-index: 200;
+}
+
+#end
+{
+
+    
+    width: 100%;
+    height:500px;
+    opacity: 0.999999999;
+    background-color:black;
+}
+
+
+#end #end_title
+{
+   
+    margin:auto;
+    width: 50%;
+    height: 268px;
+}
+
+
+.end_title1
+{
+    color: white;
+    font-family: "Thasadith",sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 0px;
+    text-align: center;
+}
+
+.end_link
+{
+    font-family: "Thasadith",sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 35px;
+    text-decoration: none;
+    padding-left: 245px;
+    color: rgb(51, 239, 180);
+}
+
+#footer
+{
+    background: #000000;
+    color: #ffffff;
+    padding: 50px 30px;
+}
+
+.footer
+{
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer_content
+{
+    height: 200px;
+}
+.footer_logo
+{
+    float: left;
+}
+
+.footer_links
+{
+    padding-left: 20px;
+    margin-left: 150px;
+    float: left;
+    width: 55%;
+}
+
+#footer .footer_content .footer_links .col h5
+{
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Thasadith",sans-serif;
+}
+.col
+{
+    display: inline-block;
+    width: 26%;
+    vertical-align: top;
+    margin: 0 3% 0 0;
+}
+
+#footer .footer_content .footer_links .col a
+{
+    text-decoration: none;
+    font-family: "Thasadith",sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.footer_social
+{
+    width: 100px;
+    float: left;
+    margin-top: 33px;
+    margin-left: 15px;
+}
+.footer_social a i
+{
+  margin-left: 15px;
+  font-size:17px;
+  color:#8b918d;
+}
+
+
+.copy_right
+{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.paint_search
+{
+    border:  solid 1px rgb(51, 239, 180);
+}
+
+
+#footer .footer_content .footer_links .col a:hover
+{
+    opacity: 0.4;
+}
+
+.videos
+{
+    display: none;
+}
